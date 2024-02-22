@@ -14,6 +14,6 @@
 
 ## Client-Server Architecture
 
->a __client__ is a machine that requests data through the internet
+- a __client__ is a machine that requests data through the internet
 
->__Servers__ are machines that contain all of the data and resources your machines need to display content to Internet users.
+- __Server__ is a machine that contain all of the data and resources needed to display content.
