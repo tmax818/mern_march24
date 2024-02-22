@@ -9,14 +9,14 @@
 
 ## Fundamentals
 
-- [Exam Overview: Modern JS](./lectures/fundamentals/notes/examOverview/README.md)
+- [Exam Overview](./lectures/fundamentals/notes/examOverview/README.md)
 - [Installation](./lectures/fundamentals/notes/installation/README.md)
 - [runningJS](./lectures/fundamentals/notes/runningJS/README.md)
 - [modernJS](./lectures/fundamentals/notes/modernJS/README.md)
 - [scopeReassignment](./lectures/fundamentals/notes/scopeReassignment/README.md)
 - [debugging](./lectures/fundamentals/notes/debugging/README.md)
 - [destructuring](./lectures/fundamentals/notes/destructuring/README.md)
-- [spread](./lectures/fundamentals/notes/spread/README.md)
+- [spreadAndRest](./lectures/fundamentals/notes/spreadAndRest/README.md)
 - [__predict JS__](./lectures/fundamentals/core/predictJS/README.md)
 - [arrowFunctions](./lectures/fundamentals/notes/arrowFunctions/README.md)
 - [__convertToArrow__](./lectures/fundamentals/practice/convertToArrow/README.md)
