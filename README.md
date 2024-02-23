@@ -52,7 +52,7 @@
 - [style](./lectures/react/notes/style/README.md)
 - [__reactBlocks__](./lectures/react/core/reactBlocks/README.md)
 - [props](./lectures/react/notes/props/README.md)
-- [rdt](./lectures/react/notes/rdt/README.md)
+- [React Developer Tools](./lectures/react/notes/rdt/README.md)
 - [__propItUp__](./lectures/react/practice/propItUp/README.md)
 - [eventsInReact](./lectures/react/notes/eventsInReact/README.md)
 - [reactHooks](./lectures/react/notes/reactHooks/README.md)
