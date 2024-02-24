@@ -8,3 +8,7 @@
 
 ## Axios
 
+>`.fetch()` is a great tool for whenever we need to make an HTTP request to an API using just JavaScript. However in larger more complex applications we can bring in a library to streamline the behavior of `.fetch()`. One of these libraries is __Axios__. Axios is a library that allows us to easily configure API calls in Javascript and our React app. 
+
+![](./fetch.gif)
+
