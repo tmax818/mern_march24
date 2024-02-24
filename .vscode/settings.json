@@ -7,5 +7,6 @@
         "reactjs",
         "Reactw",
         "wireframe"
-    ]
+    ],
+    "cmake.configureOnOpen": false
 }

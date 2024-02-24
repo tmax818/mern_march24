@@ -1,5 +1,3 @@
 
-const x = 42;
 
-
-module.exports = x;
+module.exports = this

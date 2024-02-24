@@ -120,6 +120,7 @@
 - [examOverview](./lectures/mongodb/notes/examOverview/README.md)
 - [mongoDBOverview](./lectures/mongodb/notes/mongoDBOverview/README.md)
 - [mongoDbAtlas](./lectures/mongodb/notes/mongoDbAtlas/README.md)
+- [localMongo](./lectures/mongodb/notes/localMongo/README.md)
 - [connectingMongoose](./lectures/mongodb/notes/connectingMongoose/README.md)
 - [__connectingMongoose__](./lectures/mongodb/practice/connectingMongoose/README.md)
 - [dataBasics](./lectures/mongodb/notes/dataBasics/README.md)
