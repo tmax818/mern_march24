@@ -7,6 +7,12 @@
 
 ## Fetch
 
+![](gretchen-mean-girls.gif)
+---
+
+
+![Alt Text](fetch.gif)
+
 
 ## APIs
 
