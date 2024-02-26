@@ -8,6 +8,6 @@
 
 ## Steps
 
-- [ ] Create a new component called PersonCard to display a single person's set of information using props for values
+- [ ] Create a new component called [PersonCard](./prop-it-up/src/components/PersonCard.jsx) to display a single person's set of information using props for values
 
 - [ ] Call the PersonCard component repeatedly using different prop values to display 4 unique sets of information
