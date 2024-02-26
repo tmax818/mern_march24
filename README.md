@@ -44,7 +44,7 @@
 - [usingTheReactLib](./lectures/react/notes/usingTheReactLib/README.md)
 - [vite](./lectures/react/notes/vite/README.md)
 - [jsx](./lectures/react/notes/jsx/README.md)
-- [firstReactwJSX](./lectures/react/core/firstReactwJSX/README.md)
+- [__firstReactwJSX__](./lectures/react/core/firstReactwJSX/README.md)
 
 ## Functional components
 
