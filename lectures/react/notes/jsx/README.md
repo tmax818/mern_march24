@@ -9,6 +9,10 @@
 
 >JSX (JavaScript XML) is an extension of JavaScript that allows us to write code alongside our logic that closely resembles HTML without first making it a string. This is the preferred way to use React.
 
+```bash
+$ npm create vite@latest
+```
+
 ## Some rules to keep in mind
 
 ### `class` Vs. `className`

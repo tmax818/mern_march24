@@ -7,4 +7,7 @@
 
 ## The Second of Five
 
+## JavaScript Belt Exam - React.js Competencies
+
+
 ![](1694019027__reactunitcompetencies.png)
