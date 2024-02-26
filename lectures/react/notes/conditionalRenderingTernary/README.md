@@ -8,6 +8,7 @@
 ## Ways to Conditionally Render
 
 ### Conditionally Rendering Using a Function
+
 ### Using Ternary Operators
 
 
