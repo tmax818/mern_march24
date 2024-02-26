@@ -15,3 +15,6 @@
 
 ## Direct Import
 
+## A Deeper Dive: CSS Modules
+
+add [MyButton.module.css](./src/css/MyButton.module.css)
