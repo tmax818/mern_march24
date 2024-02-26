@@ -3,6 +3,12 @@
 ##  Learning Objectives
 - Review the steps needed to create the optimal environment for JavaScript development.
 
-## [Node.js](https://nodejs.org/en)
+## [Node.js]
 
 ![](Snipaste_2024-02-21_12-38-45.png)
+
+
+
+---
+
+[Node.js]: https://nodejs.org/en

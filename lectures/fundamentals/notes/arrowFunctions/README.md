@@ -7,3 +7,23 @@
 - Examine context in JavaScript by comparing "this" behavior in ES5 and modern functions
 
 ## Modern JavaScript Arrow Functions
+
+## Function Keyword
+
+
+## ES5 Explicit Return
+
+## Modern JS Implicit Return
+
+```javascript
+const returnObjFixed = () => ({ firstName: 'John', lastName: 'Wick' })
+```
+
+## Context
+
+
+
+
+
+[index.js](index.js)
+

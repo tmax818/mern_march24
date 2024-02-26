@@ -6,9 +6,11 @@
         "merning",
         "reactjs",
         "Reactw",
+        "sekure",
         "Todos",
         "usecases",
-        "wireframe"
+        "wireframe",
+        "zipcode"
     ],
     "cmake.configureOnOpen": false
 }

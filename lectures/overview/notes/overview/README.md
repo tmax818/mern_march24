@@ -6,19 +6,19 @@
 - Recognize the course structure as it relates to learning competencies and the end-of-course exam
 - Describe the main technologies used throughout the course
 
-## Modern [JavaScript]()
+## [Modern JavaScript]
 
 
-## [React.js]()
+## [React.js]
 
 
-## [Express.js]()
+## [Express.js]
 
 
-## [MongoDB]()
+## [MongoDB]
 
 
-## [MERN]()
+## [MERN]
 
 ## Exam Overview Modules - Preparing for the Belt Exam
 
@@ -42,3 +42,11 @@
 - What are some actions I can take to maximize my chances for success while I'm here?
 - Who can I go to for support? (Code issues, emotional support, daily support)
 - Who am I doing this for? (Yourself? Your family? Who or what is going to keep you motivated through this course?)
+
+
+---
+[Modern JavaScript]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[React.js]: https://react.dev/
+[Express.js]: https://expressjs.com/
+[MongoDB]: https://www.mongodb.com/
+[MERN]: https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/
