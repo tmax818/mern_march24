@@ -8,6 +8,8 @@
 
 ## A Component's Children
 
+>Components may contain __children__, which refer to the elements or components that are enclosed between the opening and closing tags of JSX elements. In React, we can utilize props' children property to access the children of a component.
+
 
 ## Meet the Children
 
