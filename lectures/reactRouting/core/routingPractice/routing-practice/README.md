@@ -5,7 +5,7 @@
 - Develop a React app with routing for multiple components.​
 - Utilize dynamic rendering techniques in React to handle route parameters and customize the displayed content accordingly.​
 
-![](./1696604917__routingpractice.png)
+![](./public/1696604917__routingpractice.png)
 
 ## Steps
 

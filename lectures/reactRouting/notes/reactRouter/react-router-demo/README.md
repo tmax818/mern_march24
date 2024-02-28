@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-- Utilize the node package manager to install the `react-router-dom` package.
+- Utilize the node package manager to install the [`react-router-dom`] package.
 - Understand the various elements imported from React Router and their usecases.
 - Build routes using React Router to enable navigation within a Single Page Application (SPA).
     
@@ -13,3 +13,5 @@
 ```bash
 npm install react-router-dom
 ```
+
+[`react-router-dom`]: https://reactrouter.com/en/main

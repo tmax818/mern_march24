@@ -5,3 +5,5 @@
 - Understand the purpose of routing in Single Page Applications (SPAs) and how it enables seamless navigation within the application.
 - Identify the components that constitute a URL and how they are connected to routing.
 - Learn about how routes are different between a traditional server and a Single Page Application.
+
+## We All Route
