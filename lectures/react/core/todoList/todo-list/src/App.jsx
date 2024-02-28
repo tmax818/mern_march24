@@ -1,34 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import {useState} from 'react'
+import TodoForm from './components/TodoForm'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [todos, setTodos] = useState([]);
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+  const addTodo = td => {
+    setTodos(prev => ([...prev, td]))
+  }
+
+  const toggleStatus = td => {
+    const idx = todos.findIndex(t => t.title === td.title)
+    console.log(idx)
+    console.log(td)
+    const todosCopy = [...todos]
+    todosCopy[idx] = {...td, completed: !td.completed}
+    setTodos(todosCopy)
+  }
+
+  const removeItem = td => {
+    setTodos(prev => ([...prev.filter(t => td.title !== t.title)]))
+  }
+
+
+
+  return (  
+    <div>
+      <TodoForm addTodo={addTodo} />
+
+      {todos.map((todo, i) => (
+        <p style={{textDecoration: todo.completed ? "line-through": ""}} key={i}>{todo.title}
+        <input id={i} type="checkbox" onChange={() => toggleStatus(todo)}/>
+        <button onClick={() => removeItem(todo)}></button>
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      ))}
+    </div>
   )
 }
 
