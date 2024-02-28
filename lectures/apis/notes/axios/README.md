@@ -14,6 +14,9 @@
 ![](./fetch.gif)
 
 
->One of these libraries is __Axios__. Axios is a library that allows us to easily configure API calls in Javascript and our React app. 
+>One of these libraries is __[Axios]__. [Axios is a library] that allows us to easily configure API calls in Javascript and our React app. 
 
 
+[axios]: https://www.npmjs.com/package/axios
+
+[axios is a library]: https://axios-http.com/docs/intro

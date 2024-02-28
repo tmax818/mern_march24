@@ -44,4 +44,6 @@
 
 ## APIs
 
+>An API (Application Programming Interface) at its most simple level is just a bridge that allows two different applications to communicate with each other. 
+
 ## In Practice
