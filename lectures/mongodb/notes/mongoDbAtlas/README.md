@@ -3,3 +3,8 @@
 ## Learning Objectives
 
 - Create an account with MongoDB Atlas and configure a data cluster
+
+## Why Atlas?
+
+
+## Setting Up Your Cluster
