@@ -5,3 +5,5 @@
 - Retrieve specific data using parameters and the GET method.
 - Update a dataset using the PUT and PATCH methods.
 - Delete data from a dataset using the DELETE method.
+
+## Hard-coded Paths and Parameters
