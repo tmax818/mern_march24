@@ -132,39 +132,4 @@ If it's not in a function, it's global!!
 
 
 
-note:
-```javascript
-console.log(a);
-var a = "Alice";
-//No Error
-```
-note:
-```javascript
-console.log(a);
-let a = "Alice";
-//Error
-```
-note:
-```javascript
-console.log(a);
-let a = "Alice";
-
-function fd(){
-    console.log(a);
-}
-//Error
-```
-note:
-```javascript
-
-
-fd()
-function fd(){console.log(a)}
-
-fe()
-const fe = function(){ console.log(a)}
-
-
-var a = "Alice"
-```
 
