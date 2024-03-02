@@ -14,10 +14,10 @@ Beware of [JavaScript Fatigue](https://www.freecodecamp.org/news/the-cure-to-js-
 ### Web Programmer's Oath
 
 
-I will always have my browser's developer console open.
+- I will always have my browser's developer console open.
 
 
-I will progress in small steps
+- I will progress in small steps
 
 >The only way to go fast, is to go well.
 >
@@ -30,10 +30,10 @@ I will progress in small steps
 <!-- .element: class="fragment" data-fragment-index="2" -->
 
 
-I will write LOTS of `console.log` statements
+- I will write LOTS of `console.log` statements
 
 
-I will NOT write more code, if my code doesn't work. Instead I delete code until it works again.
+- If my code doesn't work, I will NOT write more code. Instead I delete code until it works again.
 
 
 >10% of programming is knowing what code to write. The other 90% is being able to figure out why the code you wrote isn't working!
@@ -81,51 +81,3 @@ I will NOT write more code, if my code doesn't work. Instead I delete code until
 
 ![](../../reveal/images/install.png)
 
-
-
-## Fundamentals
-
-
-![](../../reveal/images/yoda-fundamentals.jpeg)
-
-
-### Variables
-
-
-```javascript
-var name = "Tyler"
-```
-
-
-```javascript
-let name = "Tyler"
-const FIRST_NAME = "Tyler"
-```
-
-
-How do you know when to use `let` or `const`?
-
-Use `const` unless you have to use `let`!
-<!-- .element: class="fragment"  -->
-
-
-
-## Variable Scope
-
-
-local or global
-
-
-```javascript
-
-let global = "I'm global!"
-
-const func = () => {
-    let local = "I'm local!"
-}
-
-```
-If it's not in a function, it's global!!
-<!-- .element: class="fragment"  -->
-
-[demo](file:///home/tyler/Desktop/mern_march24/lectures/01day/app.js)
