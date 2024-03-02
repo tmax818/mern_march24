@@ -6,3 +6,15 @@ const add = (
         console.log("the counter is now", counter)
         return counter}
   })();
+
+
+  function myFunc(){
+    console.log("this is my function")
+    // alert("these are so annoying!!")
+  }
+
+
+  myFunc()
+
+
+  console.dir(this)

@@ -21,9 +21,6 @@ __[syntax error]__  happen when the parser finds invalid JavaScript.
 
 __[runtime error]__  is what happens if your code successfully parses and the error happens while the program is running.
 
-
-
-
 ---
 
 [syntax error]: https://developer.mozilla.org/en-US/docs/Glossary/Syntax_error
