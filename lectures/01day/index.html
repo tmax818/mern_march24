@@ -37,16 +37,22 @@
 
 			<!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
 			<section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-
-			<section>
-				<h2>Modern JavaScript</h2>
+			<section data-markdown="../fundamentals/notes/runningJS/README.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 			
+			<section>
+				<h2>Modern JavaScript Fundamentals</h2>
+				
+				<section>
+					<img class="shrink fragment fade-in-then-out" src="../../reveal/images/yoda-fundamentals.jpeg" alt="">
+				</section>
+				
 				<section data-auto-animate data-auto-animate-unmatched="fade">
 					<p>Variables</p>
 					<pre data-id="code"><code  class="hljs JavaScript" data-trim>
-							var name = "Tyler"
+						var name = "Tyler"
 					</code></pre>
 				</section>
+				
 				<section data-auto-animate data-auto-animate-unmatched="fade">
 					<p>Variables</p>
 					<pre data-id="code"><code  class="hljs JavaScript" data-trim>
@@ -55,251 +61,24 @@
 				</section>
 				
 				<section data-auto-animate>
-						<p>Variables</p>
-						<pre data-id="code"><code class="hljs JavaScript" data-trim>
+					<p>Variables</p>
+					<pre data-id="code"><code class="hljs JavaScript" data-trim>
 						let name = "Tyler"
 						const NAME = "Tyler"
 					</code></pre>
 				</section>
 				
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							for(var i = 0; i < 3; i++){
-								console.log((i))
-							}
-					</code></pre>
-				</section>
-				
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							for(var i = 0; i < 3; i++){
-								console.log((i))
-							}
-							0
-							1
-							2
-					</code></pre>
-				</section>
-				
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							for(var i = 0; i < 3; i++){
-								console.log((i))
-							}
-							console.log(i)
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							for(var i = 0; i < 3; i++){
-								console.log((i))
-							}
-							console.log(i)
-							0
-							1
-							2
-							3
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers="8" class="hljs JavaScript" data-trim>
-							for(var i = 0; i < 3; i++){
-								console.log((i))
-							}
-							console.log(i)
-							0
-							1
-							2
-							3
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers="8" class="hljs JavaScript" data-trim>
-							for(var i = 0; i < 3; i++){
-								console.log((i))
-							}
-							console.log(i)
-							0
-							1
-							2
-							3  // this is weird!!
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers="1" class="hljs JavaScript" data-trim>
-							for(let i = 0; i < 3; i++){
-								console.log((i))
-							}
-							console.log(i)
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							for(let i = 0; i < 3; i++){
-								console.log((i))
-							}
-							console.log(i)
-							0
-							1
-							2
-							.../app.js:4
-							console.log(i)
-										^
-
-							ReferenceError: i is not defined
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers="12" class="hljs JavaScript" data-trim>
-							for(let i = 0; i < 3; i++){
-								console.log((i))
-							}
-							console.log(i)
-							0
-							1
-							2
-							.../app.js:4
-							console.log(i)
-										^
-
-							ReferenceError: i is not defined
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers="12" class="hljs JavaScript" data-trim>
-							//! VARIABLES and SCOPE
-							var functionName = "function scoped";
-							let blockName = "block scoped";
-							
-							console.log("blockName: ", blockName)
-							console.log("functionName: ", functionName)						
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>block scope</p>
-						<pre data-id="code"><code  data-line-numbers="12" class="hljs JavaScript" data-trim>
-							//! VARIABLES and SCOPE
-							var functionName = "function scoped";
-							let blockName = "block scoped";
-							
-							console.log("blockName: ", blockName)
-							console.log("functionName: ", functionName)	
-							//OUTPUT:
-							//blockName:  block scoped
-							//functionName:  function scoped				
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>function scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							//! FUNCTION SCOPE
-							var functionName = "function scoped";
-
-							function f(){
-							}
-
-							let blockName = "block scoped";
-							
-							console.log("blockName: ", blockName)
-							console.log("functionName: ", functionName)				
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>function scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							//! FUNCTION SCOPE
-							
-							function f(){
-								var functionName = "function scoped";
-							}
-
-							let blockName = "block scoped";
-							
-							console.log("blockName: ", blockName)
-							console.log("functionName: ", functionName)				
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>function scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							//! FUNCTION SCOPE
-							
-							function f(){
-								var functionName = "function scoped";
-							}
-
-							let blockName = "block scoped";
-							
-							console.log("blockName: ", blockName)
-							console.log("functionName: ", functionName)			
-							//OUTPUT:
-							//blockName:  block scoped
-							//.../app.js:10
-							//console.log("functionName: ", functionName)
-							//										  ^
-							//
-							//ReferenceError: functionName is not defined
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>function scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							//! FUNCTION SCOPE
-							
-							function f(){
-								var functionName = "function scoped";
-							}
-
-							let blockName = "block scoped";
-							
-
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>function scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							//! FUNCTION SCOPE
-							
-							if(true){
-								var functionName = "function scoped";
-							}
-
-							let blockName = "block scoped";
-	
-					</code></pre>
-				</section>
-				<section data-auto-animate>
-						<p>function scope</p>
-						<pre data-id="code"><code  data-line-numbers class="hljs JavaScript" data-trim>
-							//! FUNCTION SCOPE
-							
-							if(true){
-								var functionName = "function scoped";
-							}
-
-							let blockName = "block scoped";
-							//OUTPUT:
-							//blockName:  block scoped
-							//functionName:  function scoped
-					</code></pre>
-				</section>
 			</section>
+			
+			
+			<section data-markdown="../fundamentals/notes/scopeReassignment/README.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
 
 			<section>
 				<h4>
 					<a href="https://login.codingdojo.com/m/754/16713/124465">
 						Debugging
-						
+
 					</a>
 				</h4>
 			</section>

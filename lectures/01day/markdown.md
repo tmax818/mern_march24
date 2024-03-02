@@ -5,6 +5,41 @@
 
 
 
+## Preliminary
+
+
+### Web Programmer's Oath
+
+
+- I will always have my browser's developer console open.
+
+
+- I will progress in small steps
+
+>The only way to go fast, is to go well.
+>
+>                  -- Robert Martin (Uncle Bob)
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+>A little bit of code and test.
+>
+>                       -- John Misirlakis
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+
+- I will write LOTS of `console.log` statements
+
+
+- If my code doesn't work, I will NOT write more code. Instead I delete code until it works again.
+
+
+>10% of programming is knowing what code to write. The other 90% is being able to figure out why the code you wrote isn't working!
+>
+>                               -- Tyler Maxwell
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+
 ### What is JavaScript???
 
 
