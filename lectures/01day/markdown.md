@@ -128,8 +128,32 @@ const func = () => {
 If it's not in a function, it's global!!
 <!-- .element: class="fragment"  -->
 
-[demo](https://github.com/tmax818/mern_march24/blob/main/lectures/01day/app.js)
+[scope demo](https://github.com/tmax818/mern_march24/blob/main/lectures/01day/demos/scope.js)
 
 
 
+## [Destructuring](https://github.com/tmax818/mern_march24/blob/main/lectures/01day/demos/destructuring.js)
 
+note:
+[local](./demos/destructuring.js)
+
+
+
+## [Rest and Spread](https://github.com/tmax818/mern_march24/blob/main/lectures/01day/demos/restSpread.js)
+
+note:
+[local](./demos/restSpread.js)
+
+
+
+## [arrow functions](https://github.com/tmax818/mern_march24/blob/main/lectures/01day/demos/arrowFunctions.js)
+
+note:
+[local](./demos/arrowFunctions.js)
+
+
+
+## [ternary](https://github.com/tmax818/mern_march24/blob/main/lectures/01day/demos/ternary.js)
+
+note:
+[local](./demos/ternary.js)
