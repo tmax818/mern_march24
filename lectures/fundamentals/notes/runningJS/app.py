@@ -1,9 +1,9 @@
 
-x = "yes"
+a = "alice"
 
 def func():
-    x = "no"
+    a = "alfred"
 
 func()
 
-print(x)
+print(a)

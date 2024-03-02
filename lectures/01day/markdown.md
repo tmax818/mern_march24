@@ -8,6 +8,9 @@
 ## Preliminary
 
 
+Beware of [JavaScript Fatigue](https://www.freecodecamp.org/news/the-cure-to-js-fatigue/)
+
+
 ### Web Programmer's Oath
 
 
