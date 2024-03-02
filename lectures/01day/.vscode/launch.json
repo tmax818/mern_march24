@@ -7,11 +7,11 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Tyler is cool!",
+            "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/lectures/fundamentals/notes/runningJS/script.js"
+            "program": "${file}"
         }
     ]
 }

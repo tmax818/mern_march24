@@ -1,24 +1,16 @@
 //! VARIABLES and SCOPE
-let blockName = "block scoped";
 
-// function f(){
-//     var functionName = "function scoped";
-// }
 
-if(true){
-    var functionName = "function scoped";
-}
+fd()
+function fd(){console.log(a)}
 
-console.log("blockName: ", blockName)
-console.log("functionName: ", functionName)
+fe()
+const fe = function(){ console.log(a)}
 
+
+var a = "Alice"
 //! SYNTAX ERRORS
 
-let x = 1;
-let y = 2;
-let z == 3;
-console.log(x + x);
-console.log(y - z);
-console.log(z * x);
+
 
 
