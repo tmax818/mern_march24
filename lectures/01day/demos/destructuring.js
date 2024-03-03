@@ -1,11 +1,11 @@
 
-//! Array dest
+//! Array destructuring
 
 
-//! Object dest
+//! Object destructuring
 
 
-//! Nested dest
+//! Nested destructuring
 
 const person = {
     firstName: 'Bob',
@@ -28,5 +28,4 @@ const person = {
     createdAt: 1543945177623
   };
   
-//! Shallow Copies
-
+//! Deep and Shallow Copies
