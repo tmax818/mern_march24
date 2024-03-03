@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "- [server](./README.md)   - [config](./mongoose.config.js)   - [controllers](./controllers/thing.controller.js)   - [models](./models/thing.model.js)   - [routes](./routes/thing.routes.js)   - [.env](./.env)   - [package.json](./package.json)   - [server.js](./server.js)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
