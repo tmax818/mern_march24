@@ -33,7 +33,7 @@ I will progress in small steps
 I will write LOTS of `console.log` statements
 
 
-I will NOT write more code, if my code doesn't work. Instead I delete code until it works again.
+I will NOT write more code, if my code doesn't work. Instead I will delete code until it works again.
 
 
 >10% of programming is knowing what code to write. The other 90% is being able to figure out why the code you wrote isn't working!

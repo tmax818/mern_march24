@@ -2,19 +2,28 @@
 
 console.log(a)
 var a = "Alice"
-console.log(b)
+console.log(a)
+// console.log(b)
 let b = "Bob"
 
 //! LOCAL SCOPE
+
+
+fd();
 
 function fd(){
     console.log(a);
     console.log(b);
 }
 
-const fe = function(){
+fe();
+
+
+var fe = function funcName(){
     console.log(a);
     console.log(b);
 }
+
+console.log();
 
 //! GLOBAL SCOPE
