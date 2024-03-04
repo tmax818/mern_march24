@@ -1,13 +1,36 @@
 
 //! Array destructuring
 
+// const students = ["Dennis", "Tyler", "Vitoria", "Z"]
+
+// let student = students[2]
+// console.log(student)
+
+// const [student1, ,student2, student3 ] = students
+// console.log(student1)
+// console.log(student2)
+// console.log(student3)
+
 
 //! Object destructuring
+
+// const firstName = person['first']
+// console.log(firstName)
+
+
+// const {first: givenName} = person
+// console.log(givenName)
+
+// const {name, status, species} = whatever
+
+
+
+
 
 
 //! Nested destructuring
 
-const person = {
+const rasta_person = {
     firstName: 'Bob',
     lastName: 'Marley',
     email: 'bob@marley.com',
@@ -28,4 +51,24 @@ const person = {
     createdAt: 1543945177623
   };
   
-//! Deep and Shallow Copies
+  const {addresses: [obj]} = rasta_person
+  console.log(obj)
+  
+  //! Deep and Shallow Copies
+  
+  const person1 = {first: "Tyler", last: "Maxwell", hobbies: []}
+  const person2 = {...person1, hobbies: []}
+
+person2.first = "Christian"
+person2 
+
+// person1.hobbies.push("coding")
+// person2.hobbies.push("ice skating")
+
+
+// console.log(person1)
+// console.log(person2)
+
+
+  
+  
