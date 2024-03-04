@@ -4,8 +4,7 @@
 ## Functional Programming
 
 
-
-## [callbacks](https://github.com/tmax818/mern_march24/blob/main/lectures/02day/demos/callbacks.js)
+### Review
 
 
 > A function is what it returns!!
@@ -78,9 +77,28 @@ console.log(func5(func4)());
 
 
 
+## [callbacks](https://github.com/tmax818/mern_march24/blob/main/lectures/02day/demos/callbacks.js)
 
-## [`.map` and `.filter`]()
+[docs](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 
+
+[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+an array method that executes a callback for each element of the array and returns the result
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+
+[filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+an array method that executes a boolean returning callback for each element of the array and returns the elements for which the boolean callback is true...
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+
+
+
+
+
+## [`.map` and `.filter`](https://github.com/tmax818/mern_march24/blob/main/lectures/02day/demos/mapAndFilter.js)
 
 
 
