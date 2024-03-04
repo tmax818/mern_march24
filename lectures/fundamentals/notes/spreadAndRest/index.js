@@ -11,3 +11,25 @@ const person = {
 }
 
 const personDeepCopy = {...person}
+
+
+
+
+//? REST
+
+function sum(a, b){
+    return a + b
+}
+
+function betterSum(...args){
+    console.log(args);
+}
+
+
+
+
+//? SPREAD
+
+const arr = [1,2,3,4,5];
+
+const [first, second, ...spread] = arr
