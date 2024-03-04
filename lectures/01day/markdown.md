@@ -148,6 +148,21 @@ note:
 
 ## [arrow functions](https://github.com/tmax818/mern_march24/blob/main/lectures/01day/demos/arrowFunctions.js)
 
+```javascript
+const myFunc = function(){
+    //function body
+}
+
+```
+```javascript
+const myFunc = () => {
+    //function body
+}
+
+```
+
+
+
 With a regular function `this` represents the object that calls the function
 <!-- .element: class="fragment"  -->
 
