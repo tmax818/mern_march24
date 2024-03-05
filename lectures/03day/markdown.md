@@ -20,8 +20,11 @@ export default App;
 
 
 ```javascript
-
-
+const Header = (parameters) => {
+  return (
+       // whatever we want to return... 
+  )
+}
 ```
 
 
