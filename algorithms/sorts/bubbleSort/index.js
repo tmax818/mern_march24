@@ -29,5 +29,15 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @returns {Array<number>} The given numbers after being sorted.
  */
 function bubbleSort(numbers = []) {
-    console.log("I'm here")
-}
+    
+    }
+    // set a temp var first element
+    // compare elements
+    //  if first is larger swap
+    // else continue loop
+
+
+console.log(bubbleSort(numbersOrdered) === expected)
+console.log(bubbleSort(numbersRandomOrder) === expected)
+console.log(bubbleSort(numbersReversed) === expected)
+
