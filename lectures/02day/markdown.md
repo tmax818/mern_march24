@@ -81,8 +81,8 @@ console.log(func5(func4)());
 
 [docs](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 
-
 >A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
