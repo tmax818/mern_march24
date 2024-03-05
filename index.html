@@ -49,6 +49,24 @@
     </div>
   </nav>
   <div class="container">
+    <h2>About Handling State</h2>
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item">state should live at the "lowest" level of the component hierarchy necessary to deliver state to everything that needs it. (if two components need access to the same state, the state should live in the first component that is a shared ancestor of both, if no shared parent exists other than app.js then context should be considered instead)</li>
+      <li class="list-group-item">only provide as much access to state/state modification as is necessary to components. (don't pass the entire state to a child component if it only needs to add/remove from that state, just pass a function that can perform that operation on the state instead)</li>
+      <li class="list-group-item">try to minimize the number of unique states necessary in a single component (either by combining multiple separate states into a more complex singular state object, or by moving the state out into a different component)</li>
+    </ul>
+    <ul class="list-group list-group-horizontal-sm">
+      <li class="list-group-item">context should contain the least amount of state necessary (don't abuse context, only store states in context if the state is needed for multiple disparate and disconnected components, if it seems like you need to store a lot of things in context, there's likely a problem with your design)</li>
+      <li class="list-group-item">Don’t make a new state to handle values derived from existing state variables, instead simply store the calculated values in a normal variable.</li>
+      <li class="list-group-item">If you have a complex object state that can be manipulated in many different ways, consider using useReducer instead of useState to manage it.</li>
+    </ul>
+
+    <h2>About component design and structure:</h2>
+    <ul class="list-group list-group-horizontal-sm">
+      <li class="list-group-item">components should be more generic rather than specific (allow specifics to be handled by props)</li>
+      <li class="list-group-item">components should be kept as small and focused as necessary (within reason, components should do one job)</li>
+      <li class="list-group-item">Don’t make every single thing a component if you don’t need to, components should be sections of content with isolated responsibilities, or sections of content that need to be repeated (you probably don’t need your delete button to be a component if you only have a single delete button on your website)</li>
+    </ul>
 
 
 
