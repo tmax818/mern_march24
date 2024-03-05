@@ -28,6 +28,24 @@ const Header = (parameters) => {
 ```
 
 
+```javascript
+const Header = (props = {}) => {
+  return (
+       // whatever we want to return... 
+  )
+}
+```
+
+
+```javascript
+const Header = (props) => {
+  return (
+       // whatever we want to return... 
+  )
+}
+```
+
+
 
 
 
