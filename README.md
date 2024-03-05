@@ -153,3 +153,17 @@
 - [frontEndValidation](./lectures/mernMaster/notes/frontEndValidation/README.md)
 - [errorNormalization](./lectures/mernMaster/notes/errorNormalization/README.md)
 - [__mernBookChamp__](./lectures/mernMaster/practice/mernBookChamp/README.md)
+
+
+## About handling state: 
+- state should live at the "lowest" level of the component hierarchy necessary to deliver state to everything that needs it. (if two components need access to the same state, the state should live in the first component that is a shared ancestor of both, if no shared parent exists other than app.js then context should be considered instead)
+- only provide as much access to state/state modification as is necessary to components. (don't pass the entire state to a child component if it only needs to add/remove from that state, just pass a function that can perform that operation on the state instead)
+- try to minimize the number of unique states necessary in a single component (either by combining multiple separate states into a more complex singular state object, or by moving the state out into a different component)
+context should contain the least amount of state necessary (don't abuse context, only store states in context if the state is needed for multiple disparate and disconnected components, if it seems like you need to store a lot of things in context, there's likely a problem with your design)
+- Don’t make a new state to handle values derived from existing state variables, instead simply store the calculated values in a normal variable.
+- If you have a complex object state that can be manipulated in many different ways, consider using useReducer instead of useState to manage it.
+
+## About component design and structure:
+- components should be more generic rather than specific (allow specifics to be handled by props)
+- components should be kept as small and focused as necessary (within reason, components should do one job)
+- Don’t make every single thing a component if you don’t need to, components should be sections of content with isolated responsibilities, or sections of content that need to be repeated (you probably don’t need your delete button to be a component if you only have a single delete button on your website)
