@@ -1,43 +1,27 @@
-// const sayHello = name => console.log(`Hello ${name}`);
-
-
-// const square = n => n * n;
-
-
-// const funcObj = {
-//     name: "Tyler",
-//     theFunc: function(){console.log(this)}
-// }
-
-// const arrowObj = {
-//     name: "John",
-//     theFunc: () => console.log(this)
-
-// }
 
 
 
 
-// //? implicit
+//? implicit
 
-// const impfunc = p => p
+const impfunc = p => p
 
-// const func =  p => ({name: p});
+const func =  p => ({name: p});
 
-// console.log(impfunc("hello"))
-// console.log(func("test"))
+console.log(impfunc("hello"))
+console.log(func("test"))
 
-// //? explicit
+//? explicit
 
-// const expfunc = p => {
-//     return p;
-// }
+const expfunc = p => {
+    return p;
+}
 
-// const func2 = p => {
-//     return ({name: p});
-// }
-// console.log(expfunc("hello"))
-// console.log(func2("Tyler"))
+const func2 = p => {
+    return ({name: p});
+}
+console.log(expfunc("hello"))
+console.log(func2("Tyler"))
 
 
 //? THIS
