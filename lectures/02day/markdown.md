@@ -112,6 +112,12 @@ an array method that executes a boolean returning callback for each element of t
 ## [React](https://react.dev/)
 
 
+![](../../reveal/images/s_thinking-in-react_ui.png)
+
+
+![](../../reveal/images/s_thinking-in-react_ui_outline.png)
+
+
 
 
 
