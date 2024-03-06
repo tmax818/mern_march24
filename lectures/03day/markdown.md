@@ -19,6 +19,7 @@ export default App;
 ```
 
 
+
 ## Props
 
 
@@ -58,11 +59,41 @@ const Header = (props) => {
 ```javascript
 Header({name: "Dennis"})
 ```
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 [props-demo]()
 
 
 
+## Events
 
 
 
+## hooks
+
+
+
+## State
+
+
+state = data
+
+
+>State is where we store data that changes over time.
+
+
+```javascript
+import {useState} from 'react';
+
+const Comp = () => {
+  const [state setState] = useState()
+}
+```
+
+
+
+
+
+## Props vs State
+
+![](../../reveal/images/1694019884__propsvstate.png)
