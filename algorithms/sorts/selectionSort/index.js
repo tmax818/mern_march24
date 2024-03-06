@@ -35,4 +35,11 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @param {Array<number>} numbers
  * @returns {Array<number>} The given array after being sorted.
  */
-function selectionSort(numbers = []) {}
+function selectionSort(numbers) {
+
+}
+
+console.log(selectionSort(numbersOrdered))
+console.log(selectionSort(numbersOrdered))
+console.log(selectionSort(numbersRandomOrder))
+console.log(selectionSort(numbersReversed))
