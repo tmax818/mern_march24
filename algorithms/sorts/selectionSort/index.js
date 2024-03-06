@@ -43,3 +43,11 @@ function selectionSort(numbers) {
       // min is set to the INDEX of the lesser element 
     // outside inner loop swap if i is not the min 
 }
+function selectionSort(numbers) {
+
+}
+
+console.log(selectionSort(numbersOrdered))
+console.log(selectionSort(numbersOrdered))
+console.log(selectionSort(numbersRandomOrder))
+console.log(selectionSort(numbersReversed))
