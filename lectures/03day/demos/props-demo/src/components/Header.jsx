@@ -5,7 +5,7 @@ const Header = ({theTitle, subTitle, by}) => {
   // console.log(props)
   // theTitle = "Somthing else";
   return (
-    <div>
+    <div >
       <h1>{theTitle}</h1>
       <h2>{subTitle}</h2>
       <p>{by}</p>
