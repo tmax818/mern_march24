@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
-
+import Body from './components/Body'
+import StudentCard from './components/StudentCard'
 
 const students = [
   {name: "keshia", age: 29, isAdmin: true },
@@ -14,14 +15,15 @@ function App() {
   const subTitle = "it's really good"
   const by = "Oriel Silva"
 
-  console.log(students)
 
   return (
-    <div>
+    <div style={{border: "solid 2px red", padding: "3px"}}>
       <Header theTitle={title} subTitle={subTitle} by={by}/>
-
+      {students.map(student => (
+        <StudentCard {...student} />
+      ))}
     </div>
   )
 }
 
-export default App
+export default App``

@@ -5,7 +5,7 @@ const Header = ({theTitle, subTitle, by}) => {
   // console.log(props)
   // theTitle = "Something else";
   return (
-    <div >
+    <div style={{border: "solid 2px green"}}>
       <h1>{theTitle}</h1>
       <h2>{subTitle}</h2>
       <p>{by}</p>
