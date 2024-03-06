@@ -19,6 +19,9 @@ export default App;
 ```
 
 
+## Props
+
+
 ```javascript
 const Header = (parameters) => {
   return (
@@ -40,11 +43,23 @@ const Header = (props = {}) => {
 ```javascript
 const Header = (props) => {
   return (
-       // whatever we want to return... 
+      <>
+      // our jsx here
+      </> 
   )
 }
 ```
 
+
+```html
+<Header name="Dennis" >
+```
+
+```javascript
+Header({name: "Dennis"})
+```
+
+[props-demo]()
 
 
 
