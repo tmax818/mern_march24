@@ -10,7 +10,8 @@ const Box2 = () => {
             margin: 5,
             textAlign: "center"
         }}
-        >Completed Projects</div>
+        >Completed Projects
+        </div>
     )
 }
 

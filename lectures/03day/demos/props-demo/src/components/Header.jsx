@@ -1,10 +1,15 @@
 import React from 'react'
 
-const Header = (props) => {
-   console.log(props)
+const Header = ({theTitle, subTitle, by}) => {
+  // const {theTitle, subTitle, by} = props
+  // console.log(props)
+  // theTitle = "Somthing else";
   return (
     <div>
-      <h1>Header</h1>
+      <h1>{theTitle}</h1>
+      <h2>{subTitle}</h2>
+      <p>{by}</p>
+      <p>{Math.random()}</p>
     </div>
   )
 }

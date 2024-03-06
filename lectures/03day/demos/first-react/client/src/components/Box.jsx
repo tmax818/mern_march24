@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Box = () => {
+const Box = (props) => {
+  console.log(props)
   return (
-    <div>Box</div>
+  <div style={props.theStyle}>
+    {props.myAmazingText}
+    </div>
   )
 }
 

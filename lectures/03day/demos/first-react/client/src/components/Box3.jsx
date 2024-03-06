@@ -10,7 +10,8 @@ const Box3 = () => {
         margin: '5px',
         textAlign: 'end',
     }}
-    >Contact Us</div>
+    >Contact Us
+    </div>
   )
 }
 
