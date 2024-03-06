@@ -82,6 +82,9 @@ state = data
 >State is where we store data that changes over time.
 
 
+>When state changes, The component rerenders!!!
+
+
 ```javascript
 import {useState} from 'react';
 
