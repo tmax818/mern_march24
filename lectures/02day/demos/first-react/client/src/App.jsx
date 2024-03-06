@@ -5,7 +5,7 @@ import Box3 from "./components/Box3";
 const App = () => {
 
   return (
-    <div>
+    <div style={{border: "solid 2px red"}}>
         <Box1 />
         <Box2 />
         <Box3 />

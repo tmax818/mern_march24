@@ -35,4 +35,11 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @param {Array<number>} numbers
  * @returns {Array<number>} The given array after being sorted.
  */
-function selectionSort(numbers = []) {}
+function selectionSort(numbers) {
+    // create variable for min index
+    // outer loop traverses the array minus one
+    //inner loop compares it's voi to the current min
+      // if the element at the inner loop var is less than the current element,
+      // min is set to the INDEX of the lesser element 
+    // outside inner loop swap if i is not the min 
+}
