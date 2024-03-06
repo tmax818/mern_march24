@@ -61,7 +61,7 @@ Header({name: "Dennis"})
 ```
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-[props-demo]()
+[props-demo](https://github.com/tmax818/mern_march24/tree/main/lectures/03day/demos/props-demo)
 
 
 
@@ -92,9 +92,6 @@ const Comp = () => {
   const [state setState] = useState()
 }
 ```
-
-
-
 
 
 ## Props vs State

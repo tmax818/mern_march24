@@ -14,6 +14,8 @@ function App() {
   const subTitle = "it's really good"
   const by = "Oriel Silva"
 
+  console.log(students)
+
   return (
     <div>
       <Header theTitle={title} subTitle={subTitle} by={by}/>

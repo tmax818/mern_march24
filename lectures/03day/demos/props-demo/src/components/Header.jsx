@@ -3,7 +3,7 @@ import React from 'react'
 const Header = ({theTitle, subTitle, by}) => {
   // const {theTitle, subTitle, by} = props
   // console.log(props)
-  // theTitle = "Somthing else";
+  // theTitle = "Something else";
   return (
     <div >
       <h1>{theTitle}</h1>
