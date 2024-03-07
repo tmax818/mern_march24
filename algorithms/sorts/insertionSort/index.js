@@ -52,8 +52,9 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function insertionSort(numbers) {
     // start at the second element and store it in a variable(curr)
     // compare the current element arr[i] to the one before it arr[j] swap if necessary
-    // keep looping backwards as long as the arr[j] is greater than curr AND j is greater than or equal to 0 
+    // keep looping backwards as long as the arr[j] is greater than curr AND j is greater than or equal to 0
+    
 }
 
-                            
-// example: [3,4,1,5,2]
+                       
+// example: [1,2,3,4,5]
