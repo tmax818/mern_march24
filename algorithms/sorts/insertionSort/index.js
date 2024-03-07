@@ -56,4 +56,4 @@ function insertionSort(numbers) {
 }
 
                             
-// example: [3,4,5,5,2]
+// example: [3,4,1,5,2]
