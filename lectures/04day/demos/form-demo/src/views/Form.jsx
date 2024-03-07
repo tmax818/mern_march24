@@ -1,31 +1,60 @@
 import {useState} from 'react'
 
 const Form = () => {
+    const [recipes, setRecipes] =useState([])
     const [title, setTitle]= useState("");
+    const [titleErrors, setTitleErrors] = useState("")
+    
     const [description, setDescription] = useState("");
-    const [isSubitted, setIsSubmitted] = useState(false);
-    const [errors, setErrors] = useState("")
+    const [descriptionErrors, setDescriptionErrors] = useState("")
+    const [isSubmitted, setIsSubmitted] = useState(false);
+    console.log(title)
+    console.log(description)
+    console.log(recipes)
 
     const handleSubmit = e =>
     {
         e.preventDefault();
-        console.log(e)
+        const newRecipe ={title: title, description: description}
+        console.log(newRecipe)
+        setRecipes(prev => ([...prev, newRecipe ]))
         setIsSubmitted(true)
+        setDescription("")
+        setTitle("")
     }
 
-    const handleErrors= s =>{}
+    const handleNewTitle = (e) => {
+      setTitle(e.target.value)
+      if(e.target.value.length < 2){
+        setTitleErrors("title be two chars")
+      } else {
+        setTitleErrors("")
+      }
+    }
+    
+    const handleDescription = (e) => {
+      setDescription(e.target.value)
+      if(e.target.value.length < 3){
+        setDescriptionErrors("description be three chars")
+      } else {
+        setDescriptionErrors("")
+      }
+      
+    
+    }
     
   return (
 
 
     <div>
-        <h3>{ isSubitted ? "Thanks": "Dude, fill out the form!!!"}</h3>
+        <h3>{ isSubmitted ? "Thanks": "Dude, fill out the form!!!"}</h3>
         <form onSubmit={handleSubmit} >
-            title:<input type="text" name="title" onChange={(e) => setTitle(e.target.value)} />
+            title:<input type="text" name="title" onChange={handleNewTitle} value={title} />
             <p>
-            {title.length < 2 ? "too short": null}
+            {titleErrors}
             </p>
-            description:<input type="text" name="description" onChange={(e) => setDescription(e.target.value)} />
+            description:<input type="text" name="description" onChange={handleDescription} value={description} />
+            <p style={{color: "red"}}>{descriptionErrors} </p>
             <br />
             <input type="submit" value="submit" />
         </form>
