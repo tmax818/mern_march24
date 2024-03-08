@@ -22,7 +22,7 @@
       - an array of 1 item is by definition sorted, so two arrays of 1 item
           can therefore be merged into a sorted array.
 */
-
+[42]
 // merge
 const sortedA1 = [];
 const sortedB1 = [];
@@ -52,7 +52,13 @@ const expectedMerge4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  */
 
 //! HELPER FUNCTION 
-function merge(left = [], right = []) {}
+function merge(left = [], right = []) {
+  // create an array to hold sorted elements
+  //create vars for the indices
+
+  // loop while there are elements is both arrays
+
+}
 
 // mergeSort
 const numbersOrdered = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -71,4 +77,19 @@ const expectedSort = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  */
 //! MAIN FUNCTION TO BE CALLED RECURSIVELY
 
-function mergeSort(numbers = []) {}
+function mergeSort(numbers = []) {
+
+  //base case is the arr length is one
+
+  //recursive
+
+  // split the arr in half
+    // find midpoint
+    // left 
+    // right
+
+    //return helper function invocation
+
+
+
+}

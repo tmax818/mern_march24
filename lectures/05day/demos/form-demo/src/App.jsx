@@ -1,16 +1,17 @@
 import { useState } from 'react'
-import Form from './views/Form'
+import Form from './components/Form'
+import Display from './components/Display'
 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-  console.log(useState(0))
-  console.log(count)
+  const [recipes, setRecipes] =useState([])
+
 
   return (
     <>
-  <Form/>
+  <Form  setRecipes={setRecipes}/>
+  <Display recipes={recipes} setRecipes={setRecipes} />
     </>
   )
 }

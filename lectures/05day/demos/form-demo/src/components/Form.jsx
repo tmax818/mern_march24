@@ -1,16 +1,18 @@
 import {useState} from 'react'
 
-const Form = () => {
-    const [recipes, setRecipes] =useState([])
+const Form = ({setRecipes}) => {
+
+
+
+    //! local form state
     const [title, setTitle]= useState("");
     const [titleErrors, setTitleErrors] = useState("")
-    
     const [description, setDescription] = useState("");
     const [descriptionErrors, setDescriptionErrors] = useState("")
     const [isSubmitted, setIsSubmitted] = useState(false);
     console.log(title)
     console.log(description)
-    console.log(recipes)
+
 
     const handleSubmit = e =>
     {
@@ -44,10 +46,9 @@ const Form = () => {
     }
     
   return (
-
-
     <div>
         <h3>{ isSubmitted ? "Thanks": "Dude, fill out the form!!!"}</h3>
+        {/* //! rendering a form */}
         <form onSubmit={handleSubmit} >
             title:<input type="text" name="title" onChange={handleNewTitle} value={title} />
             <p>
@@ -58,6 +59,8 @@ const Form = () => {
             <br />
             <input type="submit" value="submit" />
         </form>
+        {/* // ! render a list of recipes */}
+
     </div>
   )
 }
