@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-const Form = ({setRecipes}) => {
+const Form = ({addRecipe}) => {
 
 
 
@@ -19,7 +19,7 @@ const Form = ({setRecipes}) => {
         e.preventDefault();
         const newRecipe ={title: title, description: description}
         console.log(newRecipe)
-        setRecipes(prev => ([...prev, newRecipe ]))
+        addRecipe(newRecipe)
         setIsSubmitted(true)
         setDescription("")
         setTitle("")

@@ -1,15 +1,10 @@
 import {useState} from 'react'
 
-const Display = ({recipes, setRecipes}) => {
-  [recipes, setRecipes] = useState([])
+const Display = ({recipes, handleDelete}) => {
+
 
   
-  const handleDelete = delIdx => {
-    console.log(delIdx )
-    const newFilteredArray = recipes.filter((recipe, idx) => delIdx !== idx )
-    console.log(newFilteredArray)
-    setRecipes(newFilteredArray)
-  }
+
   
   return (
     <div style={{border: "solid"}}>
