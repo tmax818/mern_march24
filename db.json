@@ -1,8 +1,9 @@
 {
-    "posts": [
+    "recipes": [
       {
         "id": 1,
-        "title": "hello"
+        "title": "meatloaf",
+        "description": "slab of meat"
       }
     ],
     "profile": {
