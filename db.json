@@ -1,4 +1,11 @@
-[
-    {"title": "hotdogs",
-     "description": "okay tubes of...meat??"}
-]
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "hello"
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
