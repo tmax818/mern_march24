@@ -30,6 +30,66 @@
 			<!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
 			<section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 
+			<section data-auto-animate data-auto-animate-unmatched="fade">
+				<h3><code>useEffect</code></h3>
+				<pre data-id="code"><code data-line-numbers class="hljs javascript" data-trim>
+					import { useState, useEffect } from "react";
+				</code></pre>
+			</section>
+			<section data-auto-animate data-auto-animate-unmatched="fade">
+				<h3><code>useEffect</code></h3>
+				<pre data-id="code"><code data-line-numbers class="hljs javascript" data-trim>
+					import { useState, useEffect } from "react";
+
+					const Example = () => {
+
+						return (
+							<>
+							// jsx
+							&lt/>
+						)
+					}
+				</code></pre>
+			</section>
+
+			<section data-auto-animate data-auto-animate-unmatched="fade">
+				<h3><code>useEffect</code></h3>
+				<pre data-id="code"><code data-line-numbers class="hljs javascript" data-trim>
+					import { useState, useEffect } from "react";
+
+					const Example = () => {
+
+						useEffect(() => {}, [])
+
+						return (
+							<>
+							// jsx
+							&lt/>
+						)
+					}
+				</code></pre>
+			</section>
+
+			<section data-auto-animate data-auto-animate-unmatched="fade">
+				<h3><code>useEffect</code></h3>
+				<pre data-id="code"><code data-line-numbers class="hljs javascript" data-trim>
+					import { useState, useEffect } from "react";
+
+					const Example = () => {
+
+						useEffect(() => {
+							//asynchronous code goes here...
+						}, [])
+
+						return (
+							<>
+							// jsx
+							&lt/>
+						)
+					}
+				</code></pre>
+			</section>
+
 
 		</div>
 	</div>
