@@ -1,8 +1,9 @@
-# merning-with-books-three
-## Complete the Stack
+
 
 - [root](CHECKLIST.md)
+
 - [client](./client/README.md)
+
   - [node_modules](./client/node_modules/)
   - [public](./client/public/README.md)
   - [src](./client/src/)
@@ -19,6 +20,7 @@
   - [package.json](./client/package.json)
   - [package.lock.json](./client/package-lock.json)
   - [vite.config.js](./client/vite.config.js)
+
 - [server](./server/README.md)
   - [config](./server/config/README.md)
     - [mongoose.config.js](./server/config/mongoose.config.js)
@@ -31,6 +33,7 @@
   - [.env](./server/.env)
   - [package.json](./server/package.json)
   - [server.js](./server/server.js)
+
 - [.gitignore](./.gitignore)
 
 

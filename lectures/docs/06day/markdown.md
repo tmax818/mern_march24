@@ -3,7 +3,8 @@
 
 
 ## API
-`useEffect`
+
+##  `useEffect`
 
 
 
@@ -22,9 +23,6 @@
 ### [`fetch`]()
 
 
-### [axios]()
-
-
-
+![](../../reveal/images/gretchen-mean-girls.gif)
 
 

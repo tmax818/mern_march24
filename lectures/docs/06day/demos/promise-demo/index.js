@@ -9,6 +9,7 @@ const fs = require('node:fs');
 
 
 const myPromise = new Promise((res, rej) => {
+    
     const data = fs.readFile('./data.json', 'utf-8', (e, d) => {
         if(d) {res(d)} else {rej(e)}
     })
