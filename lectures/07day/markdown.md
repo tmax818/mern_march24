@@ -5,7 +5,6 @@
 ## [React Router](https://reactrouter.com/en/main)
 
 
-
 ```javascript
 function App() {
   return (
@@ -21,6 +20,21 @@ function App() {
     
 export default App
 ```
+
+
+### [`<BrowserRouter>`](https://reactrouter.com/en/main/router-components/browser-router)
+
+
+### [`<Routes>`](https://reactrouter.com/en/main/components/routes)
+
+
+### [`<Route>`](https://reactrouter.com/en/main/components/route)
+
+
+### [`useNavigate`](https://reactrouter.com/en/main/hooks/use-navigate)
+
+
+### [`useParams`](https://reactrouter.com/en/main/hooks/use-params)
 
 
 
