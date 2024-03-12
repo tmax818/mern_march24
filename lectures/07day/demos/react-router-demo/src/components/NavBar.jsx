@@ -20,7 +20,11 @@ const NavBar = () => {
                                 <Link className="nav-link" to={"/about"}>About</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Pricing</a>
+                                {/* <a className="nav-link" href="#">Features</a> */}
+                                <Link className="nav-link" to={"/survey"}>Survey</Link>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/">Home Anchor</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
