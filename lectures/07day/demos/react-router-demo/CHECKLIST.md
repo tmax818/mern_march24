@@ -10,6 +10,5 @@ $ npm create vite@latest
 
 ```bash
 $ npm i react-router-dom
-$ npm i axios
 ```
 

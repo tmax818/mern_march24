@@ -8,9 +8,15 @@ const Home = (props) => {
   return (
     <div>
         <h1 style={{color: "red"}}>Home Component</h1>
+        <p>
         <Link to={"/about"}>Go to About </Link>
+        </p>
+        <p>
         <Link to={"/this"}>Go to Params </Link>
+        </p>
+        <p>
         <Link to={"/that"}>Go to that </Link>
+        </p>
         <Link to={`/${where}`}>Go to ... </Link>
 
         <input type="text" name="where" onChange={e => setWhere(e.target.value)} />
