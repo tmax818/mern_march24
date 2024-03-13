@@ -1,5 +1,4 @@
-{
-    "recipes": [
+[
       {
         "id": 1,
         "title": "meatloaf",
@@ -10,6 +9,7 @@
         "title": "ice",
         "description": "frozen water"
       }
-    ]
 
-  }
+]
+
+  
