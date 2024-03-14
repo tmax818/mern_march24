@@ -35,3 +35,7 @@ const port = 8000;
 app.listen( port, () => console.log(`Listening on port: ${port}`) );
 
 ```
+
+- server
+  - routes
+    - [recipe.routes.js](./server/routes/recipe.routes.js)

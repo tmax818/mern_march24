@@ -1,42 +1,58 @@
 import express from 'express';
 import recipes from './recipes.json' assert {type: 'json'}
+import router from './routes/recipe.routes.js';
 
-console.log(recipes)
 
 const app = express();
 const port = 8000;
 
 app.use(express.json())
+app.use("/api", router)
 
 //! CREATE
 
-app.post("/api/recipes", (req, res) => {
-    console.log(req.body)
-    recipes.push(req.body)
-    res.json(recipes);
-})
+// app.post("/api/recipes", (req, res) => {
+//     console.log(req.body)
+//     recipes.push(req.body)
+//     res.json(recipes);
+// })
 
 //! READ ALL
 
-app.get("/api/recipes", (request, response) => {
-    response.send(recipes)
-})
+// app.get("/api/recipes", (request, response) => {
+//     response.send(recipes)
+// })
 
 //! READ ONE
 
-app.get("/api/recipes/:id", (req, res) => {
-    const recipeById = recipes.find(recipe => recipe.id == req.params.id)
-    console.log(recipeById);
-    res.json(recipeById);
-})
+// app.get("/api/recipes/:id", (req, res) => {
+//     const recipeById = recipes.find(recipe => recipe.id == req.params.id)
+//     console.log(recipeById);
+//     res.json(recipeById);
+// })
 
 //! UPDATE
+
+// app.put("/api/recipes/:id", (req, res) => {
+//     console.log(req.body)
+//     recipes.forEach((recipe, idx)=> {
+//         if(recipe.id == req.params.id){
+//             recipe = {...recipe, ...req.body}
+//             recipes[idx] = recipe
+//         }
+//     })
+//     const UpdatedRecipe = recipes.find(recipe => recipe.id == req.params.id)
+//     res.json(UpdatedRecipe)
+// })
+
 //! DELETE
 
-
-
-
-
+// app.delete("/api/recipes/:id", (req, res) => {
+//     const recipeId = req.params.id
+//     const index = recipes.findIndex(recipe => recipe.id == recipeId)
+//     recipes.splice(index, 1);
+//     res.json(recipes)
+// })
 
 
 
