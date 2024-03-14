@@ -5,7 +5,7 @@ import recipes from './recipes.json' assert {type: 'json'}
 console.log(recipes)
 
 const app = express();
-const port = 8000;
+const port = 8001;
 
 app.use(express.json())
 app.use("/api", router)
