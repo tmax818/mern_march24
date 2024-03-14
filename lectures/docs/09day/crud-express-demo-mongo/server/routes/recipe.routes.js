@@ -1,19 +1,19 @@
 import { Router } from "express";
 
 
-import { createRecipe, deleteOneRecipe, editRecipe, getAllRecipes, getOneRecipeById } from "../controllers/recipe.controller.js";
+import { createRecipe, createRecipeM, deleteOneRecipe, deleteOneRecipeM, editRecipe, editRecipeM, getAllRecipes, getAllRecipesM, getOneRecipeById, getOneRecipeByIdM } from "../controllers/recipe.controller.js";
 
 const router = Router();
 
 //! CREATE and READ ALL
 router.route("/recipes")
-.post(createRecipe)
-.get(getAllRecipes)
+.post(createRecipeM)
+.get(getAllRecipesM)
 
 //! READ ONE, UPDATE, DELETE
 router.route("/recipes/:id")
-.get(getOneRecipeById)
-.put(editRecipe)
-.delete(deleteOneRecipe)
+.get(getOneRecipeByIdM)
+.put(editRecipeM)
+.delete(deleteOneRecipeM)
 
 export default router;
