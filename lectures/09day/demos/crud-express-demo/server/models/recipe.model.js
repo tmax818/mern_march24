@@ -1,13 +1,14 @@
+//? import dependencies
 import {model, Schema} from 'mongoose';
 const RecipeSchema = new Schema(
     {
         title: {
             type: String,
-            required: [true, "First name is required!"]
+            required: [true, "Title is required!"]
         },
         description: {
             type: String,
-            required: [true, "Last name is required!"]
+            required: [true, "description is required!"]
         }
     },
     { timestamps: true }

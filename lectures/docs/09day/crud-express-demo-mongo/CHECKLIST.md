@@ -38,7 +38,7 @@ app.listen( port, () => console.log(`Listening on port: ${port}`) );
 
 ### Modularization
 
-[server.js](./server/server.js) before:
+## [server.js](./server/server.js) before:
 
 ```javascript
 import express from 'express';
@@ -110,13 +110,11 @@ const router = Router();
 
 - [ ] create a `route` for all functionality with a common endpoint.
 
-
+## server.js after
 ```javascript
 import express from 'express';
 import router from './routes/recipe.routes.js';
 import recipes from './recipes.json' assert {type: 'json'}
-
-console.log(recipes)
 
 const app = express();
 const port = 8000;

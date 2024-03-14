@@ -1,4 +1,4 @@
-import recipes from '../recipes.json' assert {type: "json"}
+import Recipe from "../models/recipe.model.js";
 
 
 //!CREATE FUNCTION
@@ -9,10 +9,32 @@ export const createRecipe = (req, res) => {
     res.json(recipes);
 }
 
+export const createRecipeM = async (req, res) => {
+    try {
+        const newRecipe = await Recipe.create(req.body);
+        res.json(newRecipe)
+    } catch(err){
+        console.error(err);
+        res.status(400).json(err);
+    }
+}
+
+
+
 //! READ ALL
 
 export const readAllRecipe = (request, response) => {
     response.send(recipes)
+}
+
+export const readAllRecipeM = async (req, res) => {
+    try {
+        const allRecipes = await Recipe.find();
+        res.json(allRecipes)
+    } catch (err) {
+        console.error(err);
+        res.status(400).json(err)
+    }
 }
 
 //! READ ONE
@@ -21,6 +43,16 @@ export const readOneRecipe = (req, res) => {
     const recipeById = recipes.find(recipe => recipe.id == req.params.id)
     console.log(recipeById);
     res.json(recipeById);
+}
+
+export const readOneRecipeM = async (req, res) => {
+    try {
+        const theRecipe = await Recipe.findById(req.params.id);
+        res.json(theRecipe)
+    } catch (err) {
+        console.log(err);
+        res.status(400).json(err)
+    }
 }
 
 //! UPDATE
