@@ -36,14 +36,18 @@
 
 - [.gitignore](./.gitignore)
 
+## client configuration
 
-- [ ] install dependencies
+
+- [ ] install client dependencies
 
 ```bash
 $ npm i axios react-router-dom
 ```
 
-## server config
+- [ ] create routes in [App.jsx](./client/src/App.jsx)
+
+## server configuration
 
 - [ ] install server dependencies
 
