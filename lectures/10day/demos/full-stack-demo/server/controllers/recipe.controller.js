@@ -29,6 +29,7 @@ export const readAllRecipe = (request, response) => {
 export const readAllRecipeM = async (req, res) => {
     try {
         const allRecipes = await Recipe.find();
+        console.log(allRecipes)
         res.json(allRecipes)
     } catch (err) {
         console.error(err);

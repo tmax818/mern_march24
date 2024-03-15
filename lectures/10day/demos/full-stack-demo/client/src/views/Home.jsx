@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     const [recipes, setRecipes] = useState([])
@@ -14,15 +15,31 @@ const Home = () => {
 
   return (
     <div>
-        <h1>recipes</h1>
-        {recipes.map((recipe, idx) =>{
-            return(
-                <div>
-                    <h3>{recipe.title}</h3>
-                </div>
-            )
-            console.log(recipe.title)
-        })}
+<table className="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">title</th>
+      <th scope="col">description</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    {recipes.map(recipe => (
+    <tr>
+      <th scope="row">{recipe._id}</th>
+      <td>
+        <Link to={`/show/${recipe._id}`}>
+        {recipe.title}
+        </Link>
+        </td>
+      <td>{recipe.description}</td>
+
+    </tr>
+    ))}
+
+  </tbody>
+</table>
     </div>
   )
 }
