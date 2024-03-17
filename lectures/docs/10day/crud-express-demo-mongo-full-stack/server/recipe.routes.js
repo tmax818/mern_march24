@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 
-import { createRecipe, createRecipeM, deleteOneRecipe, deleteOneRecipeM, editRecipe, editRecipeM, getAllRecipes, getAllRecipesM, getOneRecipeById, getOneRecipeByIdM } from "../controllers/recipe.controller.js";
+import { createRecipe, createRecipeM, deleteOneRecipe, deleteOneRecipeM, editRecipe, editRecipeM, getAllRecipes, getAllRecipesM, getOneRecipeById, getOneRecipeByIdM } from "./controllers/recipe.controller.js";
 
 const router = Router();
 

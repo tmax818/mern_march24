@@ -1,6 +1,6 @@
+# mern-template
 
-
-- [root](CHECKLIST.md)
+## overall file structure
 
 - [client](./client/README.md)
 
@@ -35,23 +35,3 @@
   - [server.js](./server/server.js)
 
 - [.gitignore](./.gitignore)
-
-## client configuration
-
-
-- [ ] install client dependencies
-
-```bash
-$ npm i axios react-router-dom
-```
-
-- [ ] create routes in [App.jsx](./client/src/App.jsx)
-
-## server configuration
-
-- [ ] install server dependencies
-
-```bash
-$ npm i express mongoose cors dotenv
-$ npm i --save-dev nodemon
-```
