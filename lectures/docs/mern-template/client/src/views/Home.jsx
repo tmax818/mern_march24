@@ -1,7 +1,8 @@
 import axios from 'axios';
 import {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom';
-import {getAllThings} from '../services/ThingService'
+import {getAllThings, deleteOneThing} from '../services/ThingService'
+
 
 const Home = () => {
   const [things, setThings] = useState(null);
@@ -15,6 +16,15 @@ const Home = () => {
       })
       .catch(err => {console.log(err)})
   }, [])
+
+  const handleDelete = id => {
+      deleteOneThing(id)
+        .then(res => {
+            const filteredThings = things.filter(t => t._id != id)
+            console.log(filteredThings)
+            setThings(filteredThings)
+        })
+  }
 
 
   return (
@@ -35,11 +45,12 @@ const Home = () => {
           <th>
             <Link to={`/things/show/${thing._id}`}>view one</Link>
           </th>
-          <td>{thing.StringProperty}</td>
-          <td>{thing.NumberProperty}</td>
-          <td>{thing.BooleanProperty ? "yes": "no"}</td>
+          <td>{thing.stringProperty}</td>
+          <td>{thing.numberProperty}</td>
+          <td>{thing.booleanProperty ? "yes": "no"}</td>
           <td>
             <Link to={`/things/edit/${thing._id}`}>edit one</Link>
+            <button onClick={() => handleDelete(thing._id)}>del</button>
           </td>
         </tr>
     ))}

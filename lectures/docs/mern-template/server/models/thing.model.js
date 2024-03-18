@@ -6,17 +6,17 @@
 import {model, Schema} from 'mongoose';
 const ThingSchema = new Schema(
     {
-        StringProperty: {
+        stringProperty: {
             type: String,
             required: [true, "StringProperty is required! and validations are working"]
 
         },
-        NumberProperty: {
+        numberProperty: {
             type: Number,
             required: [true, "NumberProperty is required!"]
 
         },
-        BooleanProperty: {
+        booleanProperty: {
             type: Boolean,
             required: [true, "BooleanProperty is required!"]
         }

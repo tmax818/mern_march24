@@ -10,8 +10,8 @@ const Card = ({thing}) => {
             <div className="card" style={{ width: "18rem", position: 'fixed',top: '25%',left: '40%' }}>
                 <img src={"https://placehold.co/600x400"} className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{thing.StringProperty}</h5>
-                    <p className="card-text">{thing.NumberProperty}</p>
+                    <h5 className="card-title">{thing.stringProperty}</h5>
+                    <p className="card-text">{thing.numberProperty}</p>
                     <DeleteButton thing={thing} />
                 </div>
             </div>

@@ -20,7 +20,7 @@ export default () => {
       }, [])
 
     const change = e => {
-        setThing(prev => ({...thing, [e.target.name]: e.target.value, BooleanProperty: e.target.checked}))
+        setThing(prev => ({...thing, [e.target.name]: e.target.value, booleanProperty: e.target.checked}))
         if(e.target.value.length < 2 || e.target.value < 10){
           setFormErrors({...formErrors, [e.target.name]: `${e.target.name} is too short`})
         } else {setFormErrors(null)}
