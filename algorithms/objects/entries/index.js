@@ -9,13 +9,17 @@
 
 const obj1 = {
     name: "Pizza",
-    calories: 9001,
+    calories: 9001
   };
   
   const expected1 = [
     ["name", "Pizza"],
-    ["calories", 9001],
+    ["calories", 9001]
   ];
+
+  for( let k in obj1){
+    console.log(k, obj1[k])
+  }
   
   const proto = { inheritance: "inherited key", keyOnProto: "val from proto" };
   
