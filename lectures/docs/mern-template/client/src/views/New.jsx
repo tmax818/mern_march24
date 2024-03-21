@@ -1,7 +1,4 @@
-import {useState} from 'react';
-import {useNavigate} from 'react-router-dom';
-import { defaultThing } from '../helpers';
-import {createThing} from '../services/ThingService'
+
 import handleNew from '../hooks/handleNew';
 import Form from '../components/Form';
 
